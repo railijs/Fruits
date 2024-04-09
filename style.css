@@ -1,0 +1,186 @@
+:root {
+  color: white;
+}
+
+body {
+  background-color: #1a0129;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 30px;
+}
+
+p {
+  color: #fcf6f5;
+}
+
+ul {
+  color: #fcf6f5;
+}
+
+h1 {
+  color: #fcf6f5;
+}
+
+a {
+  color: #fcf6f5;
+}
+
+header {
+  background-color: #3a025b;
+
+  height: 30px;
+  width: 100vw;
+
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+}
+
+.invalid-data {
+  top: 100px;
+  left: 0;
+  color: red;
+  font-size: 1.2em;
+}
+
+.delete-form {
+  display: inline-block;
+}
+
+.delete-button {
+  background-color: rgb(249, 49, 49);
+  border-radius: 5px;
+  font-family: "Courier New", Courier, monospace;
+  transition: 0.6s;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.619);
+}
+
+input {
+  border-radius: 8px;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.edit-button {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.edit-button:focus {
+  color: #171e29;
+}
+
+.edit-button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.edit-button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .edit-button {
+    min-width: 170px;
+  }
+}
+
+.back-button {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.back-button:focus {
+  color: #171e29;
+}
+
+.back-button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.back-button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .back-button {
+    min-width: 100px;
+  }
+}
